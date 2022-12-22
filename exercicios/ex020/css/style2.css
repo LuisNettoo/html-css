@@ -1,0 +1,43 @@
+* {
+    background-color: #252525;
+    color: rgb(236, 236, 236);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: skyblue;
+}
+
+a:hover {
+    color: rgb(0, 4, 255);
+    text-decoration: underline;
+}
+
+a::after {
+    content: ' ❮';
+    color: white;
+}
+a::before {
+    content: '❯ ';
+    color: white;
+}
+
+div {
+    display: block;
+    background-color: aliceblue;
+    color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 15px solid red;
+    cursor: pointer;
+    padding: 20px;
+}
+
+div:active {
+    background-color: blue;
+}

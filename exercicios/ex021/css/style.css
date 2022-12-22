@@ -1,0 +1,15 @@
+h1 {
+    display: flex;
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkgray;
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+}
+
+a {
+    border-left: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
