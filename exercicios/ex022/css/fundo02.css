@@ -1,0 +1,9 @@
+body {
+    background-image: url("/exercicios/ex022/images/pattern001.png");
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+}
+
+h1 {
+    color: white;
+}
