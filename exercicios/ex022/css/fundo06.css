@@ -1,15 +1,15 @@
 body {
     height: 100vh;
-    background-color: black;
-    background-image: url("../images/wallpaper002.jpg");
-    background-repeat: repeat-y;
-    background-position: top center;
+    /* Shorthand - background
+        color > image > position > repeat > [size] > attachment
+    */
     background-size: cover;
+    background: black url("../images/wallpaper002.jpg") center center no-repeat fixed;
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 2px solid black;
