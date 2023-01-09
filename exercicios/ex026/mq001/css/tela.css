@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgray;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+menu ul {
+    list-style-type: none;
+    background-color: darkgray;
+    color: white;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #383838;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 600px;
+    display: block;
+}
