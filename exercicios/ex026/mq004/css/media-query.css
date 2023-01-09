@@ -2,3 +2,55 @@
 
 /* Todas as demais mídias */
 
+@media print {
+    /* Impressora */
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    body {
+        background-image: url(../images/back-print.jpg);
+    }
+
+    #phone {display: none;}
+    #print {display: block; margin: auto;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Tablet */
+
+    body {
+        background-image: url(../images/back-tablet.jpg);
+        
+    }
+    
+    #tablet {display: block; margin: auto;} 
+    #phone {display: none;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    /* Desktop */
+    
+    body {
+        background-image: url(../images/back-tablet.jpg);
+        
+    }
+    
+    #pc {display: block; margin: auto;}
+    #phone {display: none;} 
+}
+
+@media screen and (min-width: 1920px) and (max-width: 3840px) {
+    /* TV */
+
+    body {
+        background-image: url(../images/back-tv.jpg);
+    }
+
+    #phone {display: none;}
+    #tv {display: block; margin: auto;}
+}
