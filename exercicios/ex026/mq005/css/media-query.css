@@ -5,7 +5,22 @@
         display: none;
     }
 
-    menu {
+    header menu {
         display: block;
+    }
+
+    header li {
+        display: inline-block;
+        text-align: left;
+        border: none;
+    }
+
+    header a {
+        border-radius: 5px;
+        margin: 10px 0px 10px 10px;
+    }
+
+    main article {
+        width: 768px;
     }
 }
